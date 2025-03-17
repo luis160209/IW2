@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let nome = "emerson";
+        let idade  = 30 ;
+        let email = "emerson@xx.com";
+        
+        // DOM, BOM
+         // ESTAREI PEGANDO A REFERENCIA DO PARAGRAFOS
+        //let ref =  document.getElementById("x01");
+        //ref.innerHTML = "ver";
+
+
+    </script>
+</head>
+<body>
+    <h2> Contato </h2>
+    <p id="x01" class="xpto" name=""> </p>
+    <p id="x02" class="xpto" name=""></p>
+    <p id="x03" class="xpto" name=""></p>
+</body>
+</html>
+
+<script>
+  // id
+        //  let ref =  document.getElementById("x01");
+        //  var ref02 = window.document.getElementById("x02");
+        //  let ref03 = document.getElementById("x03");
+ // class
+   let classP = document.getElementsByClassName("xpto"); // array
+
+
+// TagName
+    let TagName = document.getElementsByTagName("p");// array
+ // selectorAll
+
+     let SelectAll = document.querySelectorAll(".xpto"); // array
+
+        //  ref.innerHTML =  `nome : ${nome} `;
+        //  ref02.innerHTML = "idade :" + idade;
+        //  ref03.innerHTML = " e-mail : "  + email;
+
+    //   classP[0].innerHTML =  `nome : ${nome} `;  
+    //   classP[1].innerHTML =  `email : ${email} `;  
+    //   classP[2].innerHTML =  `idade : ${idade} `;  
+     
+    // TagName[0].innerText = "Nome : " + nome;
+    // TagName[0].style.color = "#006400"; 
+    // TagName[0].style.fontSize = "24px";
+    
+    // TagName[1].innerText = "email : " + email;
+    // TagName[1].style.color = "#006400"; 
+    // TagName[1].style.fontSize = "24px";
+
+    // TagName[2].innerText = "Idade : " + idade;
+    // TagName[2].style.color = "#006400"; 
+    // TagName[2].style.fontSize = "24px";
+
+     SelectAll[0].innerHTML =`Nome : ${nome}`;
+     SelectAll[0].innerHTML =`Nome : ${nome}`;
+     SelectAll[0].style.margin ="5px";
+     
+     SelectAll[1].innerHTML =`email : ${email}`;
+     SelectAll[1].innerHTML ="email : " +  emai ;
+     SelectAll[1].style.margin ="5px";
+
+</script>
+

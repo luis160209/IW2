@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-list, .selected-cars {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #000;
+    min-width: 250px; 
+    min-height: 200px; 
+}
+
+.car-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.car-item:last-child {
+    border-bottom: none; 
+}
+
+.car-item.selected {
+    background-color: #ddd; /
+}
+
+.buttons {
+    margin: 5px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px; 
+}
+
+.green {
+    background-color: rgb(7, 205, 47);
+    color: white;
+}
+
+.red {
+    background-color: rgb(255, 73, 41);
+    color: white;
+}

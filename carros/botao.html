@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Carros</title>
+    <link rel="stylesheet" href="css/botao.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carList" class="car-list">
+            <div class="car-item" onclick="selecionarCarro(this)">Corolla</div>
+            <div class="car-item" onclick="selecionarCarro(this)">Civic</div>
+            <div class="car-item" onclick="selecionarCarro(this)">Fusion</div>
+            <div class="car-item" onclick="selecionarCarro(this)">Opala</div>
+            <div class="car-item" onclick="selecionarCarro(this)">Fastback</div>
+        </div>
+
+        <div class="buttons">
+            <button class="green" onclick="moverSelecionado()">Adicionar</button>
+            <button class="red" onclick="moverdeVolta()">Retirar</button>
+        </div>
+
+        <div id="selecionarCarro" class="selected-cars">
+            <p id="emptyMessage">Vazia</p>
+        </div>
+    </div>
+
+    <script src="js/botão.js"></script>
+</body>
+</html>
